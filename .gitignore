@@ -1,0 +1,20 @@
+# ---- Python / Flask backend ----
+__pycache__/
+*.py[cod]
+.venv/
+
+# ---- Node / React frontend ----
+node_modules/
+dist/
+
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+
+# ---- OS ----
+.DS_Store
